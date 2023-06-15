@@ -1,0 +1,111 @@
+/* This css file will be used for repetatitve stylings throughout this website development */
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+:root
+{
+    /* Variables declaration */
+    --max-screen-width: 80vw;
+    --min-screen-height:100vh;
+}
+.bg-red{
+    background-color: red;
+}
+.border
+{
+    border: 3px black solid;
+}
+
+.min-h-screen
+{
+    min-height: var(--min-screen-height);
+}
+
+.max-w-screen
+{
+    max-width: var(--max-screen-width);
+}
+.margin-r-image-overflow-screen
+{
+    margin-right: -13%;
+}
+
+.center-auto{
+    margin: auto;
+}
+.header-sticky
+{
+    position: sticky;
+    top:0px;
+}
+
+.flex
+{
+    display: flex;
+   
+}
+.flex-col
+{
+    flex-direction: column;
+}
+.justify-between
+{
+    justify-content: space-between;
+}
+.align-center
+{
+    align-items: center;
+}
+
+
+.justify-center
+{
+    justify-content: center;
+}
+.font-family
+{
+    font-family: 'Ubuntu', sans-serif;
+
+}
+.text-bold
+{
+    font-weight: bolder;
+}
+
+.text-color
+{
+    color:#89033f;
+}
+.text-center
+{
+    text-align: center;
+}
+.font-size
+{
+    font-size: 1.3rem;
+}
+.font-size-1rem
+{
+    font-size: 1rem;
+}
+.overflow-hidden
+{
+    overflow: hidden;
+}
+.overflow-hidden-y
+{
+    overflow-y: hidden;
+}
+.overflow-x-clip
+{
+    overflow-x: clip;
+}
+
+.text-decoration-none
+{
+    text-decoration: none;
+}
+.text-color-black
+{
+    color: black;
+}
